@@ -1,0 +1,72 @@
+{
+  "SignOutTopbar": {
+    "login": "Log in",
+    "register": "Register"
+  },
+  "Heroimage": {
+    "textPart1": "...is a platform for effective, fast, and engaging learning",
+    "textPart2": "of programming through practice and competition",
+    "startLearning": "Start learning",
+    "exploreAcademy": "Explore Academy"
+  },
+  "ContentTop": {
+    "title": "What can you learn?",
+    "platformDescription1": "Codebusters will allow you to learn and practice Front-end technologies such as HTML5, CSS, and JavaScript in practice!",
+    "platformDescription2": "You can solve tasks, climb the rankings, achieve levels of knowledge in various technologies, and even export your results and show them off!"
+  },
+  "ContentBottom": {
+    "title": "Over 400 students from across the country have trusted us",
+    "text": "We develop educational products, run a programming academy, create software for commercial clients, conduct body leasing, and promote sports",
+    "meetUs": "Meet us"
+  },
+  "Footer": {
+    "privacyPolicy": "Privacy Policy",
+    "contact": "Contact"
+  },
+  "Register": {
+    "registerMC": "Register",
+    "nick": "Nickname",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Your email",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "accept": "I accept",
+    "termsAndConditions": "terms and conditions",
+    "haveAccount": "Already have an account?",
+    "login": "Log in",
+    "nickMassage": "The nickname is required",
+    "firstNameMassage": "The first name is required",
+    "lastNameMassage": "The last name is required",
+    "emailMassage": "The email must have the correct format",
+    "emailMassageMin": "Email is required",
+    "passwordMassages": "The password must contain the appropriate number of characters",
+    "passwordMassageMin": "Password must be at least 8 characters long",
+    "passwordMassageA": "The password must contain at least one uppercase letter",
+    "passwordMassageAa": "The password must contain at least one lowercase letter",
+    "passwordMassageA3": "The password must contain at least one digit",
+    "passwordMassageA3X": "The password must contain at least one special character (@, $, !, %, *, ?, &)",
+    "confirmPasswordMassage": "The password does not match",
+    "confirmPasswordMassageIdentico": "Passwords do not match",
+    "checkBoxMassage": "You must accept the terms and conditions of service!",
+    "terms": "You must accept the terms and conditions of service!"
+  },
+  "ConfirmRegistration": {
+    "confirmRegister": "Confirm registration!",
+    "sentLink": "We have sent an activation link to the address name@example.com, please verify :)",
+    "mailIs": "Didn't receive the activation email?",
+    "resubmit": "Resend"
+  },
+  "Login": {
+    "login": "Log in",
+    "email": "Your email",
+    "password": "Password",
+    "emailMassage": "Email must be in a valid format",
+    "passwordMassage": "Something went wrong!",
+    "rememberMe": "Remember me",
+    "register": "Register",
+    "dontAccount": "Don't have an account yet?",
+    "forgotPassword": "Forgot Password",
+    "loginWithGithub": "Login with Github"
+  }
+}

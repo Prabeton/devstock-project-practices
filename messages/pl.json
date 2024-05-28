@@ -1,0 +1,72 @@
+{
+  "SignOutTopbar": {
+    "login": "Zaloguj się",
+    "register": "Rejestracja"
+  },
+  "Heroimage": {
+    "textPart1": "...to platforma do skutecznej, szybkiej i angażującej nauki",
+    "textPart2": "programowania poprzez praktykę i rywalizację",
+    "startLearning": "Zacznij naukę",
+    "exploreAcademy": "Poznaj Akademię"
+  },
+  "ContentTop": {
+    "title": "Czego możesz się nauczyć?",
+    "platformDescription1": "Codebusters pozwoli Ci poznawać i w praktyce ćwiczyć technologie Front-end, takie jak HTML5, CSS oraz JavaScript!",
+    "platformDescription2": "Możesz rozwiązywać zadania, piąć się w rankingu, zdobywać osiagnięcia i poziomy znajomości różnych technologii, a nawet wyeksportować swoje wyniki i pochwalić się nimi!"
+  },
+  "ContentBottom": {
+    "title": "Zaufało nam już 400+ kursantów z całego kraju",
+    "text": "Rozwijamy produkty edukacyjne, prowadzimy akademię programowania, tworzymy software dla klientów komercyjnych, prowadzimy body leasing i promujemy sport",
+    "meetUs": "Poznaj nas"
+  },
+  "Footer": {
+    "privacyPolicy": "Polityka prywatności",
+    "contact": "Kontakt"
+  },
+  "Register": {
+    "registerMC": "Zarejestruj się",
+    "nick": "Pseudonim",
+    "firstName": "Imię",
+    "lastName": "Nazwisko",
+    "email": "Twój e-mail",
+    "password": "Hasło",
+    "confirmPassword": "Potwierdz hasło",
+    "accept": "Akceptuję",
+    "termsAndConditions": "zasady i warunki",
+    "haveAccount": "Masz już konto?",
+    "login": "Zaloguj się",
+    "nickMassage": "Pseudonim musi zawierać odpowiednią ilość znaków",
+    "firstNameMassage": "Imię musi zawierać odpowiednią ilość znaków",
+    "lastNameMassage": "Nazwisko musi zawierać odpowiednią ilość znaków",
+    "emailMassage": "E-mail musi mieć poprawny format",
+    "emailMassageMin": "Email jest wymagany",
+    "passwordMassages": "Hasło musi zawierać odpowiednią ilość znaków",
+    "passwordMassageMin": "Hasło musi zawierać co najmniej 8 znaków",
+    "passwordMassageA": "Hasło musi zawierać co najmniej jedną dużą literę",
+    "passwordMassageAa": "Hasło musi zawierać co najmniej jedną małą literę",
+    "passwordMassageA3": "Hasło musi zawierać co najmniej jedną cyfrę",
+    "passwordMassageA3X": "Hasło musi zawierać co najmniej jeden znak specjalny (@, $, !, %, *, ?, &)",
+    "confirmPasswordMassage": "Hasło jest niezgodne",
+    "confirmPasswordMassageIdentico": "Hasła nie są identyczne",
+    "checkBoxMassage": "Musisz zaakceptować zasady i warunki świadczenia usług!",
+    "terms": "Musisz zaakceptować zasady i warunki świadczenia usług!"
+  },
+  "ConfirmRegistration": {
+    "confirmRegister": "Potwierdź rejestrację!",
+    "sentLink": "Przesłaliśmy link aktywacyjny na adres name@example.com, prosimy o weryfikację :)",
+    "mailIs": "Mail aktywacyjny nie dotarł?",
+    "resubmit": "Prześlij ponownie"
+  },
+  "Login": {
+    "login": "Zaloguj się",
+    "email": "Twój e-mail",
+    "password": "Hasło",
+    "emailMassage": "E-mail musi mieć poprawny format",
+    "passwordMassage": "Coś poszło nie tak!",
+    "rememberMe": "Zapamiętaj mnie",
+    "register": "Zarejestruj się",
+    "dontAccount": "Nie masz jeszcze konta?",
+    "forgotPassword": "Nie pamiętam hasła",
+    "loginWithGithub": "Logowanie przez Github"
+  }
+}

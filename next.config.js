@@ -1,4 +1,18 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+const createNextIntlPlugin = require("next-intl/plugin");
+const withNextIntl = createNextIntlPlugin();
 
-module.exports = nextConfig;
+module.exports = {
+  async rewrites() {
+    return [
+      {
+        source: "/_next/:path*",
+        destination: "/_next/:path*",
+      },
+    ];
+  },
+  ...withNextIntl({
+    experimental: {
+      appDir: true,
+    },
+  }),
+};
