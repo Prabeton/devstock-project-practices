@@ -1,14 +1,18 @@
+import React from 'react';
 import clsx from "clsx";
+import { UseFormRegister, FieldErrors } from 'react-hook-form';
 
-type InputFormProps = {
+export type InputFormProps = {
   label: string;
   id: string;
   type: string;
   placeholder: string;
-  register: any;
+  register: UseFormRegister<any>;
   errorMessage?: string;
-  errors: { [key: string]: any };
+  errors: FieldErrors;
   className?: string;
+  autoComplete?: string;
+  required?: boolean;
 };
 
 const InputForm: React.FC<InputFormProps> = ({
@@ -20,6 +24,8 @@ const InputForm: React.FC<InputFormProps> = ({
   errors,
   className,
   errorMessage,
+  autoComplete, 
+  required, 
 }) => {
   return (
     <div className="relative flex flex-col space-y-0.25 box-border">
@@ -32,6 +38,8 @@ const InputForm: React.FC<InputFormProps> = ({
           type={type}
           placeholder={placeholder}
           id={id}
+          autoComplete={autoComplete} 
+          required={required} 
           className={clsx(
             "px-4 py-3 box-border font-normal text-light-gray bg-gray-700 border rounded-md h-10.25 text-sm",
             { "border-dry-concrete": !errors[id] },
@@ -48,4 +56,5 @@ const InputForm: React.FC<InputFormProps> = ({
     </div>
   );
 };
+
 export default InputForm;

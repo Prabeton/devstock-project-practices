@@ -14,5 +14,8 @@ module.exports = {
     experimental: {
       appDir: true,
     },
+    // intl: {
+    //   timeZone: 'Europe/Worsow',
+    // },
   }),
 };

@@ -49,7 +49,9 @@
     "confirmPasswordMassage": "The password does not match",
     "confirmPasswordMassageIdentico": "Passwords do not match",
     "checkBoxMassage": "You must accept the terms and conditions of service!",
-    "terms": "You must accept the terms and conditions of service!"
+    "terms": "You must accept the terms and conditions of service!",
+    "registerationFailed": "Registration failed",
+    "registerationSucces": "Registration completed successfully"
   },
   "ConfirmRegistration": {
     "confirmRegister": "Confirm registration!",
@@ -67,6 +69,43 @@
     "register": "Register",
     "dontAccount": "Don't have an account yet?",
     "forgotPassword": "Forgot Password",
-    "loginWithGithub": "Login with Github"
+    "loginWithGithub": "Login with Github",
+    "loginError": "Login Error",
+    "loginSuccess": "Login Success",
+    "githubLoginError": "GitHub login error",
+    "unexpectedError": "Unexpected Error"
+  },
+  "Topbar": {
+    "logout": "Log out"
+  },
+  "Sidebar": {
+    "dashboard": "Dashboard",
+    "ranking": "Ranking",
+    "lessons": "Lessons",
+    "calendar": "Calendar",
+    "task": "Task",
+    "settings": "Settings",
+    "adminPanel": "Admin panel"
+  },
+  "AdminPanel": {
+    "title": "Admin panel"
+  },
+  "Calendar": {
+   "title": "Calendar"
+  },
+  "Dashboard": {
+    "title": "Dashboard"
+  },
+  "Lessons": {
+    "title": "Lessons"
+  },
+  "Ranking": {
+   "title": "Ranking"
+  },
+  "Settings": {
+    "title": "Settings"
+  },
+  "Task": {
+    "title": "Task"
   }
 }

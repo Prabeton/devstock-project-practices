@@ -39,3 +39,6 @@ DOCS
 - https://nextjs.org/
 - https://v2.tailwindcss.com/docs
 - we use node 18.x :)
+...................
+...................
+

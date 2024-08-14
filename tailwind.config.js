@@ -7,7 +7,8 @@ module.exports = {
     "./public/**/*.html",
     "./features/**/*.{html,js,ts,jsx,tsx,mdx}",
     "./app/**/*.{html,js,ts,jsx,tsx,mdx,css}",
-    "node_modules/flowbite-react/**/*.{html,js,jsx,ts,tsx,css}",
+    "./node_modules/flowbite-react/**/*.{html,js,jsx,ts,tsx,css}",
+    "./node_modules/flowbite/**/*.js",
   ],
   theme: {
     extend: {
@@ -24,12 +25,16 @@ module.exports = {
       height: {
         10.5: "2.625rem", // *** 42px ***
         11.25: "2.813rem", // *** 45px ***
+        12: "3rem", // *** 48px ***
         18: "4.5rem", // *** 72px ***
         22.5: "5.625rem", // *** 90px ***
+        '26': '6.5rem', // *** 194px *** 
         30: "7.5rem", // *** 120px ***
         49.5: "12.375rem", // *** 198px ***
         69.5: "17.375rem", // *** 278px ***
         77.5: "19.375rem", // *** 310px ***
+        '83': '20.75rem', // *** 332px ***
+        '84': '21rem', // *** 334px ***
         89.5: "22.375rem", // *** 358px ***
         94: "23.5rem", // *** 376px ***
         99: "24.75rem", // *** 396px ***
@@ -38,13 +43,18 @@ module.exports = {
         163.5: "40.875rem", // *** 654px ***
       },
       width: {
+        12: "3rem", // *** 48px ***
+        '15': '3.75rem', // *** 60px ***
         21.75: "5.438rem", // *** 87px ***
+        22.75: "5.688rem", // *** 91px ***
         26.75: "6.688rem", // *** 107px ***
         30: "7.5rem", // *** 120px ***
         37.5: "9.375rem", // *** 150px ***
         43.75: "10.938rem", // *** 175px ***
         50: "12.5rem", // *** 200px ***
+        '55': '13.75rem', // *** 220px ***
         75: "18.75rem", // *** 300px ***
+        87.5: "21.875rem", // *** 350px ***
         112: "28rem", // *** 448px ***
         113: "28.25rem", // *** 452px ***
         120: "30rem", // *** 480px ***
@@ -61,6 +71,12 @@ module.exports = {
         1366: "85.375rem", // 1366px - zostaje warunkowo
       },
       colors: {
+        "gray-Lite": "#F3F4F6",
+        "dark-Tekst": "#111928",
+        "gray-half": "#222426",
+        "gray-medium": "#374151",
+        "ultra-gray": "#C4C4C4",
+        "yellow-active": "#F5A22E",
         yellow: "#F5A22E",
         blue: "#0074F0",
         "light-gray": "#9CA3AF",
@@ -88,6 +104,7 @@ module.exports = {
       },
       spacing: {
         10.25: "2.563rem", // *** 41px ***
+        30: '7.5rem', // *** 120px ***
       },
     },
   },

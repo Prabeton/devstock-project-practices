@@ -19,13 +19,13 @@ const Footer = () => {
             </Link>
           </div>
           <div className="w-px text-base bg-white h-7"></div>
-          <Link href="###" passHref>
+          <Link href="#" passHref>
             <div className="flex items-center justify-center h-10 text-base font-medium text-white">
               {t("privacyPolicy")}
             </div>
           </Link>
           <div className="w-px text-base bg-white h-7"></div>
-          <Link href="###" passHref>
+          <Link href="#" passHref>
             <div className="flex items-center justify-center h-10 text-base font-medium text-white">
               {t("contact")}
             </div>

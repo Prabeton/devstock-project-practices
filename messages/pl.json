@@ -49,7 +49,9 @@
     "confirmPasswordMassage": "Hasło jest niezgodne",
     "confirmPasswordMassageIdentico": "Hasła nie są identyczne",
     "checkBoxMassage": "Musisz zaakceptować zasady i warunki świadczenia usług!",
-    "terms": "Musisz zaakceptować zasady i warunki świadczenia usług!"
+    "terms": "Musisz zaakceptować zasady i warunki świadczenia usług!",
+    "registerationFailed": "Rejestracja nie powiodła się",
+    "registerationSucces": "Rejestracja zakończona sukcesem"
   },
   "ConfirmRegistration": {
     "confirmRegister": "Potwierdź rejestrację!",
@@ -67,6 +69,43 @@
     "register": "Zarejestruj się",
     "dontAccount": "Nie masz jeszcze konta?",
     "forgotPassword": "Nie pamiętam hasła",
-    "loginWithGithub": "Logowanie przez Github"
+    "loginWithGithub": "Logowanie przez Github",
+    "loginError": "Błąd logowania",
+    "loginSuccess": "Logowanie zakończone sukcesem",
+    "githubLoginError": "Błąd logowania przez GitHub",
+    "unexpectedError": "Wystąpił nieoczekiwany błąd"
+  },
+  "Topbar": {
+    "logout": "Wyloguj się"
+  },
+  "Sidebar": {
+    "dashboard": "Panel główny",
+    "ranking": "Ranking",
+    "lessons": "Lekcje",
+    "calendar": "Kalendarz",
+    "task": "Zadanie",
+    "settings": "Ustawienia",
+    "adminPanel": "Panel admina"
+  },
+  "AdminPanel": {
+    "title": "Panel admina"
+  },
+  "Calendar": {
+   "title": "Kalendarz"
+  },
+  "Dashboard": {
+    "title": "Panel główny"
+  },
+  "Lessons": {
+    "title": "Lekcje"
+  },
+  "Ranking": {
+   "title": "Ranking"
+  },
+  "Settings": {
+    "title": "Ustawienia"
+  },
+  "Task": {
+    "title": "Zadanie"
   }
 }

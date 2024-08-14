@@ -17,7 +17,7 @@ const SignOutTopbar = () => {
 
   return (
     <div className="box-border relative flex justify-center w-screen h-20 p-0 m-0">
-      <div className="box-border flex items-center justify-between w-full h-20 gap-8 pl-10 pr-10 bg-gray">
+      <div className="box-border flex items-center justify-between w-full h-20 gap-10 pl-10 pr-10 bg-gray">
         <Link href="/landing" passHref>
           <div className="box-border w-30 h-11">
             <DevstockAcademy />
