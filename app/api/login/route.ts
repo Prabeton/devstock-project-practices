@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { signIn } from 'next-auth/react';
-import bcrypt from 'bcrypt';
+import bcrypt from "bcryptjs"
 
 import { prisma } from '@/lib/prismadb';
 
